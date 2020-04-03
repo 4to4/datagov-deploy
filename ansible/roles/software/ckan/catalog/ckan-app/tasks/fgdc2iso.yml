@@ -19,6 +19,6 @@
 - name: copy saxon-license.lic
   copy:
     content: |
-      {{ saxon-license }}
+      {{ saxon_license }}
     path: /etc/saxon-license.lic
     mode: "0644"
